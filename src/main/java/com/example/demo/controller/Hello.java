@@ -8,7 +8,8 @@ import java.util.Date;
 @RestController
 public class Hello {
     @RequestMapping("/")
-    public String sayHello(){
-        return "Hello, jenkins! " + new Date();
+    public String sayHi(){
+        //修改返回的字符串的内容
+        return "Hello, jenkins! 123 " + new Date();
     }
 }
