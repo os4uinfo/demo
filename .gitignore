@@ -26,3 +26,6 @@
 
 ### Temp files ###
 *.swp
+
+### target ###
+./target
