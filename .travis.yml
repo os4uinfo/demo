@@ -1,0 +1,16 @@
+{
+  "os": "linux",
+  "jdk": "oraclejdk8",
+  "dist": "trusty",
+  "sudo": "required",
+  "group": "stable",
+  "script": [
+    "gradle clean",
+    "gradle wrapper",
+    "./gradlew build"
+  ],
+  "language": "java",
+  "after_success": [
+    "bash <(curl -s https://codecov.io/bash)"
+  ]
+}
