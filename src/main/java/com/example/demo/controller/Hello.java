@@ -10,6 +10,6 @@ public class Hello {
     @RequestMapping("/")
     public String sayHi(){
         //修改返回的字符串的内容
-        return new Date() + "Hi, demo & jenkins! " + new Data() ;
+        return new Date() + "Hi, jenkins! " + new Data() ;
     }
 }
