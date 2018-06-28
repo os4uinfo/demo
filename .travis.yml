@@ -5,9 +5,7 @@
   "sudo": "required",
   "group": "stable",
   "script": [
-    "gradle clean",
-    "gradle wrapper",
-    "./gradlew build"
+    "mvn clean install"
   ],
   "language": "java",
   "after_success": [
